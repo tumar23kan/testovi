@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400;1,600&family=Oxanium:wght@500;600;700&family=Roboto:ital,wght@0,900;1,700;1,900&family=Work+Sans:ital,wght@0,500;0,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 1rem 0;
+  background: #1c1b1b;
+}
+#header .header-general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header-general__nav a {
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+  padding: 0 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+#header .header-general__nav select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+  padding: 0 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+#header .header-general button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 13px;
+  background: transparent;
+  color: white;
+  border: 1.5px solid #ffffff;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+#header .header-general__icon {
+  color: #ffffff;
+  padding: 0 18px 0 4px;
+  font-size: 0.8rem;
+}
+#header .header-general__icon__title {
+  color: #ffffff;
+  padding: 0 10px 0 0;
+  font-size: 0.8rem;
+}
+
+#hero {
+  background-image: url("/img/Background.png");
+  height: 33rem;
+}
+#hero .hero-general h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding: 6rem 0 2rem 0;
+  line-height: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+#hero .hero-general p {
+  width: 36rem;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: rgb(143, 137, 137);
+  padding: 0 0 4rem 0;
+  font-family: "Montserrat", sans-serif;
+}
+#hero .hero-general__vec {
+  display: flex;
+  align-items: start;
+  justify-content: left;
+}
+#hero .hero-general__vec button {
+  padding: 13px 28px;
+  background: linear-gradient(91.83deg, #7AF051 16.38%, rgba(194, 240, 81, 0.8) 116.75%);
+  color: #090000;
+  border: solid rgba(29, 246, 13, 0.78);
+  border-radius: 25px;
+  font-size: 1rem;
+}
+#hero .hero-general__vec img {
+  color: #ffffff;
+  position: absolute;
+  left: 23rem;
+  top: 25rem;
+  height: 5rem;
+}
+#hero .hero-general__blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 6rem;
+}
+#hero .hero-general__blog img {
+  width: 5rem;
+  height: 3rem;
+}
+
+#hash {
+  background: white;
+  height: 33rem;
+}
+#hash .hash-general h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: rgb(9, 0, 0);
+  padding: 6rem 0 2rem 0;
+  line-height: 4rem;
+  font-family: "Montserrat", sans-serif;
+  width: 93%;
+}
+#hash .hash-general__blogs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hash .hash-general__blogs__text h4 {
+  font-size: 1.3rem;
+  color: rgb(9, 0, 0);
+  padding: 2rem 0 0 0;
+  line-height: 4rem;
+  font-family: "Montserrat", sans-serif;
+}
+#hash .hash-general__blogs__text p {
+  font-size: 0.6rem;
+  color: rgba(40, 34, 34, 0.43);
+  font-family: "Montserrat", sans-serif;
+  width: 15rem;
+  line-height: 1.1rem;
+}
+
+#partner {
+  background-image: url("/img/Rectangle 160.png");
+  height: 33rem;
+}
+#partner .partner-general h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding: 6rem 0 4rem 0;
+  line-height: 4rem;
+  font-family: "Montserrat", sans-serif;
+}
+#partner .partner-general__blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#partner .partner-general__blog h2 {
+  color: #C2F051;
+}
+#partner .partner-general__blog__text {
+  border-radius: 1rem;
+  border: 1.4px solid #C2F051;
+  width: 18rem;
+  height: 9rem;
+}
+#partner .partner-general__blog__text h4 {
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  padding: 8px 0 0 1.5rem;
+  line-height: 4rem;
+  font-family: "Montserrat", sans-serif;
+}
+#partner .partner-general__blog__text p {
+  font-size: 0.6rem;
+  color: rgb(204, 198, 198);
+  font-family: "Montserrat", sans-serif;
+  width: 15rem;
+  line-height: 1.1rem;
+  padding: 0 0 0 1.5rem;
+}
+
+#defi {
+  background-image: url("/img/Rectangle 157.png");
+  height: 45rem;
+}
+#defi .defi-general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#defi .defi-general__text h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: rgb(9, 0, 0);
+  padding: 0 0 2rem 0;
+  line-height: 4rem;
+  font-family: "Montserrat", sans-serif;
+}
+#defi .defi-general__text p {
+  width: 21rem;
+  font-size: 0.7rem;
+  color: #414141;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 8rem 0;
+}
+#defi .defi-general__text__tel {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+#defi .defi-general__text__tel i {
+  color: #414141;
+}
+#defi .defi-general__text__tel h4 {
+  padding-left: 1rem;
+  font-size: 0.7rem;
+  color: #414141;
+  font-family: "Montserrat", sans-serif;
+}
+#defi .defi-general__text__sms {
+  display: flex;
+  justify-content: flex-start;
+}
+#defi .defi-general__text__sms i {
+  color: #414141;
+}
+#defi .defi-general__text__sms h4 {
+  padding-left: 1rem;
+  font-size: 0.7rem;
+  color: #414141;
+  font-family: "Montserrat", sans-serif;
+}
+#defi .defi-general__blog {
+  padding-top: 11rem;
+}
+#defi .defi-general__blog__name {
+  border-radius: 1rem;
+  background-color: rgba(128, 128, 128, 0.2);
+  width: 28rem;
+  height: 2.7rem;
+  margin-bottom: 1.7rem;
+}
+#defi .defi-general__blog__name p {
+  padding: 17px 0 0 17px;
+  font-size: 0.8rem;
+  color: rgba(70, 67, 67, 0.78);
+}
+#defi .defi-general__blog__names {
+  border-radius: 1rem;
+  background-color: rgba(128, 128, 128, 0.2);
+  width: 28rem;
+  height: 7rem;
+  margin-bottom: 2rem;
+}
+#defi .defi-general__blog__names p {
+  padding: 17px 0 0 17px;
+  font-size: 0.8rem;
+  color: rgba(70, 67, 67, 0.78);
+}
+#defi .defi-general__blog button {
+  padding: 13px 28px;
+  background: linear-gradient(91.83deg, #7AF051 16.38%, rgba(194, 240, 81, 0.8) 116.75%);
+  color: #090000;
+  border: solid rgba(29, 246, 13, 0.78);
+  border-radius: 25px;
+  font-size: 1rem;
+}
+#defi .defi-general__blog p {
+  padding: 17px 0 0 17px;
+  font-size: 0.8rem;
+  color: rgba(70, 67, 67, 0.78);
+}
+
+#footer {
+  padding: 4rem 0;
+  background: #090000;
+  height: 25rem;
+}
+#footer .footer-general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer-general__HashEx__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 0.7rem;
+}
+#footer .footer-general__HashEx__logo__i {
+  margin: 4rem 6px 11rem 0;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 56%;
+  background: rgba(128, 128, 128, 0.29);
+  padding: 7px 0 0 7px;
+}
+#footer .footer-general__HashEx p {
+  font-size: 0.5rem;
+  color: rgba(134, 132, 132, 0.97);
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 1rem 0;
+}
+#footer .footer-general__AUDITS {
+  height: 28rem;
+}
+#footer .footer-general__AUDITS h3 {
+  font-size: 0.8rem;
+  color: rgba(134, 132, 132, 0.97);
+  margin: 2rem 0;
+}
+#footer .footer-general__AUDITS p {
+  font-size: 0.5rem;
+  color: rgba(134, 132, 132, 0.97);
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 1rem 0;
+}
+#footer .footer-general__TYPES {
+  height: 28rem;
+}
+#footer .footer-general__TYPES h3 {
+  font-size: 0.8rem;
+  color: rgba(134, 132, 132, 0.97);
+  margin: 2rem 0;
+}
+#footer .footer-general__TYPES p {
+  font-size: 0.5rem;
+  color: rgba(134, 132, 132, 0.97);
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 1rem 0;
+}
+#footer .footer-general__SERVICES {
+  height: 28rem;
+}
+#footer .footer-general__SERVICES h3 {
+  font-size: 0.8rem;
+  color: rgba(134, 132, 132, 0.97);
+  margin: 2rem 0;
+}
+#footer .footer-general__SERVICES p {
+  font-size: 0.5rem;
+  color: rgba(134, 132, 132, 0.97);
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 1rem 0;
+}
+#footer .footer-general__PRODUCTS {
+  height: 28rem;
+}
+#footer .footer-general__PRODUCTS h3 {
+  font-size: 0.8rem;
+  color: rgba(134, 132, 132, 0.97);
+  margin: 2rem 0;
+}
+#footer .footer-general__PRODUCTS p {
+  font-size: 0.5rem;
+  color: rgba(134, 132, 132, 0.97);
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 1rem 0;
+}
+#footer .footer-general__COMPANY {
+  height: 28rem;
+}
+#footer .footer-general__COMPANY h3 {
+  font-size: 0.8rem;
+  color: rgba(134, 132, 132, 0.97);
+  margin: 2rem 0;
+}
+#footer .footer-general__COMPANY p {
+  font-size: 0.5rem;
+  color: rgba(134, 132, 132, 0.97);
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 1rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */
